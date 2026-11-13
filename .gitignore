@@ -1,0 +1,23 @@
+# build output
+build/
+build-release/
+dist/
+*.user
+
+# Qt / CMake
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.o
+*.exe
+*.dll
+*.a
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
