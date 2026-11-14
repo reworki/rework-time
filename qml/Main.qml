@@ -37,6 +37,12 @@ Window {
         return rank === 0 ? 1 : rank === 1 ? 0 : 2
     }
 
+    // крестик прячет окно в трей (обработчик ставит C++ через Tray::attach)
+    onClosing: (close) => {
+        close.accepted = false
+        tray.hideToTray()
+    }
+
     Rectangle {
         anchors.fill: parent
         gradient: Gradient {

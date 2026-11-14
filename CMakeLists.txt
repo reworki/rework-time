@@ -14,6 +14,7 @@ qt_add_executable(reworktime
     src/tracker.h   src/tracker.cpp
     src/store.h     src/store.cpp
     src/backend.h   src/backend.cpp
+    src/tray.h      src/tray.cpp
 )
 
 qt_add_qml_module(reworktime
